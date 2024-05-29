@@ -1,0 +1,35 @@
+#chatContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y:auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #bebcbc;
+    border-radius: 5px;
+    height: 90vh;
+    padding: 0;
+}
+
+.chat{
+    padding: 10px;
+    margin-bottom: 5px;
+    width:fit-content;
+    margin: 10px;
+}
+
+.chatMaquina{
+    background-color: rgb(199, 214, 227);
+    align-self: end;
+}
+
+.chatUser{
+    background-color: #d1e1d1;
+    align-self: start;
+}
+
