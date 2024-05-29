@@ -4,7 +4,8 @@ export const patterns = [
     responses: [
       "Lo siento, no puedo tolerar el uso de lenguaje inapropiado. Por favor, mantengamos la conversación respetuosa y amigable.",
       "Prefiero no responder a ese tipo de mensajes. ¿Hay algo más en lo que pueda ayudarte?",
-      "Intentemos mantener un ambiente positivo y respetuoso en nuestra conversación."
+      "Intentemos mantener un ambiente positivo y respetuoso en nuestra conversación.",
+      "Tu mamá"
     ]
   },
   {
@@ -44,8 +45,8 @@ export const patterns = [
     pattern: /.*\b(eres|llamas|cuál es tu nombre|cómo te llamas)\b.*/i,
     responses: [
       "Soy un chatbot creado para ayudarte.",
-      "Me llamo ChatGPT, ¿y tú?",
-      "Mi nombre es ChatGPT. ¿En qué puedo asistirte?"
+      "Me llamo Ian. Entendiste? IA n, porque soy una Inteligencia artificial jajajaja.",
+      "Mi nombre es Ian. ¿En qué puedo asistirte?"
     ]
   },
   {
@@ -94,9 +95,9 @@ export const patterns = [
   {
     pattern: /\b(chiste|chistes)\b/i,
     responses: [
-      "¡Claro! Aquí tienes uno: ¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
-      "Aquí tienes otro: ¿Cuál es el colmo de un electricista? Tener mala corriente.",
-      "¡Uno más para la risa! ¿Qué hace una abeja en el gimnasio? ¡Zum-ba!",
+      "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+      "¿Cuál es el colmo de un electricista? Tener mala corriente.",
+      "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!",
       "¿Qué le dice una iguana a su hermana gemela? ¡Iguanita!"
     ]
   },

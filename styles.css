@@ -5,6 +5,10 @@
     overflow-y:auto;
 }
 
+form{
+    display: flex;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -12,7 +16,7 @@
     background-color: rgb(241, 241, 241);
     border: 1px solid #bebcbc;
     border-radius: 5px;
-    height: 85vh;
+    height: 80vh;
     padding: 0;
 }
 
