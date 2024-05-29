@@ -12,7 +12,7 @@
     background-color: rgb(241, 241, 241);
     border: 1px solid #bebcbc;
     border-radius: 5px;
-    height: 90vh;
+    height: 85vh;
     padding: 0;
 }
 
@@ -21,6 +21,7 @@
     margin-bottom: 5px;
     width:fit-content;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .chatMaquina{
